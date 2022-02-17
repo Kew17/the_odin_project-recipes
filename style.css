@@ -27,9 +27,15 @@ div.body {
 }
 
 body {
-    background: linear-gradient(to left, maroon, indigo, blue) ;
+    animation: back 2s infinite;
 }
 
 * {
     color: peachpuff;
+}
+
+@keyframes back {
+    0%  {background: linear-gradient(to left, maroon, indigo, blue) ;}
+    50% {background: linear-gradient(to left, blue, indigo, maroon) ;}
+    100%  {background: linear-gradient(to left, maroon, indigo, blue) ;}
 }
