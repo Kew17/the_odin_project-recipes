@@ -1,0 +1,35 @@
+title {
+    background-color: rosybrown;
+    color: sienna;
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 12%;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+div.recipe {
+    text-align: center;
+}
+li {
+    text-align: justify;
+    margin-left: 45%;
+}
+
+div.body {
+    padding-top: 40%;
+}
+
+body {
+    background: linear-gradient(to left, maroon, indigo, blue) ;
+}
+
+* {
+    color: peachpuff;
+}
